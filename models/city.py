@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-""" Class City """
-
+"""Class State"""
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Class City"""
+    """inherits all the attributes of BaseModel"""
 
     state_id = ""
     name = ""

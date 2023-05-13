@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Class State """
-
+""" Class State"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ Class State """
+    """inherits the attributes of BaseModel"""
+
     name = ""
