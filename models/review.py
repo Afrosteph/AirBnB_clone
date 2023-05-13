@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" review module"""
-
+"""Class Review"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ Review model"""
+    """inherits all the attributes of class BaseModel"""
+
     place_id = ""
     user_id = ""
     text = ""
